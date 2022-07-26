@@ -1,0 +1,17 @@
+.page16{
+    background-color: rgba(210, 235, 241, 1);
+    padding: 2rem;
+}
+
+.page16_content{
+    width: 35%;
+}
+
+.page16_content_heading h3{
+    font-size: 3rem;
+    color: rgba(64, 79, 230, 1);
+}
+
+.page16_content_para p{
+    font-size: 1.4rem;
+}

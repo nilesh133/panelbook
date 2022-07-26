@@ -1,0 +1,20 @@
+.page6{
+    background-color: #404FE6;
+    padding: 2rem;
+}
+
+.page6 h1{
+    font-size: 480px;
+    color: rgba(119, 131, 251, 1);
+    margin: 0;
+    text-align: center;
+}
+
+.page6 h3{
+    font-size: 8rem;
+    color: rgba(119, 131, 251, 1);
+    margin: 0;
+    float: right;
+    margin-top: -6rem;
+    margin-right: 18rem;
+}

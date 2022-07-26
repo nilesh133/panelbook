@@ -1,0 +1,28 @@
+.page9{
+    padding: 2rem;
+    display: flex;
+}
+
+.page9_main{
+    padding: 1rem;
+    border-right: 2px solid #404FE6;
+}
+
+.page9_main_content{
+    padding: 1rem;
+}
+
+.page9_main_content h4{
+    color: rgba(64, 79, 230, 1);
+    font-size: 30px;
+    margin: 0;
+}
+
+.page9_main_content p{
+    color: rgba(98, 98, 98, 1);
+    font-size: 18px;
+}
+
+.page9_main_content:nth-child(1){
+    border-bottom: 1px solid #404FE6;
+}

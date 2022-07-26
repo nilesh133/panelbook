@@ -1,0 +1,92 @@
+.page14{
+    padding: 2rem; 
+}
+
+.page14_heading{
+    display: flex;
+    align-items: center;
+}
+
+.page14_heading h1{
+    margin: 0;
+    font-size: 4rem;
+    color: rgba(64, 79, 230, 1);
+    padding-right: 1rem;
+    border-right: 1px solid #000;
+}
+
+.page14_heading_para{
+    padding-left: 1rem;
+}
+
+.page14_heading_para p{
+    margin: 0;
+}
+
+.page14_subheading{
+    padding: 0.8rem 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-top: 1rem;
+}
+
+.page14_subheading h1{
+    font-size: 3.8rem;
+    margin: 0;
+}
+
+.page14_bottom{
+    display: flex;
+}
+
+.page14_bottom_left{
+    width: 50%;
+}
+
+.page14_bottom_right{
+    width: 50%;
+}
+
+.page14_bottom_left_upperpara{
+    width: 74%;
+}
+
+.page14_bottom_left_bottompara{
+    width: 74%;
+    color: rgba(64, 79, 230, 1);
+    margin-top: 15rem;
+    border-top: 5px solid rgba(64, 79, 230, 1);
+    border-bottom: 5px solid rgba(64, 79, 230, 1);
+}
+
+.page14_bottom_right_paras{
+    display: flex;
+}
+
+.page14_bottom_right_paraleft{
+    margin-right: 3rem;
+}
+
+
+.page14_bottom_right_blue{
+    padding: 1.5rem 0;
+}
+
+.page14_bottom_right_blue h3{
+    color: rgba(64, 79, 230, 1);
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.page14_bottom_right_blue p{
+    color: rgba(64, 79, 230, 1);
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.page14_bottom_right_blue a{
+    color: rgba(64, 79, 230, 1);
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+}

@@ -1,0 +1,85 @@
+.page20{
+    background-color: rgba(64, 79, 230, 1);
+    padding: 2rem;
+    position: relative;
+    height: 880px;
+    overflow: hidden;
+}
+
+.page20_section{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(179, 222, 231, 1);
+}
+
+.page20_section_left h3{
+    color: rgba(179, 222, 231, 1);
+    font-size: 40px;
+    margin: 0;
+}
+
+.page20_section_right{
+    display: flex;
+}
+
+.page20_section_right h3{
+    color: rgba(179, 222, 231, 1);
+    font-size: 40px;
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.page20_section_right h3:nth-child(2){
+    color: #fff;
+}
+
+.page20_heading{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(179, 222, 231, 1);
+}
+
+.page20_heading h1{
+    margin: 0;
+    font-size: 74px;
+    color: #fff;
+}
+
+.page20_subheading{
+    display: flex;
+    padding-top: 1rem;
+}
+
+.page20_subheading p{
+    margin: 0;
+    font-size: 24px;
+    color: rgba(179, 222, 231, 1);
+    margin-right: 3rem;
+}
+
+.page20_content{
+    /* padding-top: 10rem; */
+    display: flex;
+}
+
+.page20_content_left{
+    position: absolute;
+    width: 35%;
+    top: 685px;
+    left: 64px;
+}
+
+.page20_content_left h3{
+    color: #fff;
+}
+
+.page20_content_right{
+    position: absolute;
+    top: 612px;
+    left: 1140px;
+}
+
+.page20_content_right h1{
+    color: rgba(119, 131, 251, 1);
+    font-size: 150px;
+    margin: 0;
+}

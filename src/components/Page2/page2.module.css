@@ -1,0 +1,26 @@
+.page2{
+    display: flex;
+    background-color: #404FE6;
+    padding: 2rem 4rem;
+}
+
+.page2_left{
+    width: 50%;
+}
+
+.page2_left h1{
+    font-size: 55px;
+    color: rgba(179, 222, 231, 1);
+}
+
+.page2_right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2_right p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 2rem;
+}

@@ -1,0 +1,86 @@
+.page28{
+    padding: 2rem;
+    height: 1080px;
+}
+
+.page28_heading{
+    display: flex;
+    align-items: center;
+}
+
+.page28_heading h1{
+    margin: 0;
+    font-size: 4rem;
+    color: rgba(64, 79, 230, 1);
+    padding-right: 1rem;
+    border-right: 1px solid #000;
+}
+
+.page28_heading_para{
+    padding-left: 1rem;
+}
+
+.page28_heading_para p{
+    margin: 0;
+}
+
+.page28_subheading{
+    padding: 0.8rem 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-top: 1rem;
+}
+
+.page28_subheading h1{
+    font-size: 3.8rem;
+    margin: 0;
+}
+
+.page28_table table{
+    width: 100%;
+    padding: 1rem 0;
+    border-spacing: 10px;
+}
+
+.page28_table th{
+    border-radius: 10px;
+    padding: 0.1rem 2rem;
+    text-align: center;
+    background-color: rgba(64, 79, 230, 1);
+    color: #fff;
+}
+
+.page28_table td{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.1rem 2rem;
+    text-align: center;
+}
+
+.page28_table table tr td{
+    position: relative;
+}
+
+.page28_table table tr td:nth-child(2)::after, .page28_table table tr td:nth-child(4)::after, .page28_table table tr td:nth-child(9)::after{
+    content: '';
+    width: 2px;
+    height: 180%;
+    background-color: rgba(64, 79, 230, 1);
+    position: absolute;
+    top: 0;
+    right: -4%;
+}
+
+.page28_table table tr th{
+    position: relative;
+}
+
+.page28_table table tr th:nth-child(2)::after, .page28_table table tr th:nth-child(4)::after, .page28_table table tr th:nth-child(9)::after{
+    content: '';
+    width: 2px;
+    height: 180%;
+    background-color: rgba(64, 79, 230, 1);
+    position: absolute;
+    top: 0;
+    right: -3.3%;
+}

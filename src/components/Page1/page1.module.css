@@ -1,0 +1,64 @@
+.page1{
+    position: relative;
+    width: 100%;
+    height: 750px;
+}
+
+.page1_images img{
+   border: 5px solid #fff;
+   border-radius: 1rem;
+}
+
+.page1_images img:nth-child(1){
+    position: absolute;
+    top: 267px;
+    left: 950px;
+    z-index: 100;
+}
+
+.page1_images img:nth-child(2){
+    position: absolute;
+    top: 340px;
+    left: 728px;
+}
+
+.page1_images img:nth-child(3){
+    position: absolute;
+    top: 40px;
+    left: 1115px;
+}
+
+.page1_images img:nth-child(4){
+    position: absolute;
+    top: -19px;
+    left: 480px;
+}
+
+.page1_images img:nth-child(5){
+    position: absolute;
+    top: 130px;
+    left: 250px;
+}
+
+.page1_logo{
+    position: absolute;
+    top: 350px;
+    left: 70px;
+}
+
+.page1 .page1_heading{
+    position: absolute;
+    top: 450px;
+    left: 70px;   
+}
+
+.page1 .page1_heading h1{
+    font-size: 3rem;
+    margin: 0;
+}
+
+.page1 .page1_heading p{
+    font-size: 2rem;
+    margin: 0;
+    color: rgba(64, 79, 230, 1);
+}

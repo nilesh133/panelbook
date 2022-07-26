@@ -1,0 +1,89 @@
+.page15{
+    display: flex;
+    background-color: rgba(210, 235, 241, 1);
+    padding: 2rem;
+    height: 980px;
+    position: relative;
+}
+
+.page15_left{
+    width: 50%;
+}
+
+.page15_right{
+    width: 50%;
+}
+
+.page15 h1{
+    color: rgba(64, 79, 230, 1);
+    font-size: 2.5rem;
+    width: 60%;
+}
+
+.page15 p{
+    font-size: 1.2rem;
+    width: 60%;
+}
+
+.page15_right{
+    display: flex;
+    justify-content: center;
+}
+
+.page15_right_outercircle{
+    width: 353px;
+    height: 353px;
+    border: 3px dashed rgba(64, 79, 230, 1);
+    border-radius: 50%;
+    margin-top: 10rem;
+}
+
+.page15_right_innercircle:nth-child(1){
+    position: absolute;
+    top: 10%;
+    left: 69%;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(64, 79, 230, 1);
+    border-radius: 50%;
+}
+
+.page15_right_innercircle:nth-child(2){
+    position: absolute;
+    top: 22%;
+    left: 80%;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(64, 79, 230, 1);
+    border-radius: 50%;
+}
+
+.page15_right_innercircle:nth-child(3){
+    position: absolute;
+    top: 40%;
+    left: 78%;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(64, 79, 230, 1);
+    border-radius: 50%;
+}
+
+.page15_right_innercircle:nth-child(4){
+    position: absolute;
+    top: 40%;
+    left: 62%;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(64, 79, 230, 1);
+    border-radius: 50%;
+}
+
+.page15_right_innercircle:nth-child(5){
+    position: absolute;
+    top: 22%;
+    left: 59%;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(64, 79, 230, 1);
+    border-radius: 50%;
+}

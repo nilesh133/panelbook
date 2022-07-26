@@ -1,0 +1,39 @@
+.page5{
+    padding: 2rem;
+}
+
+.page5_heading{
+    border-top: 1px solid rgba(0, 0, 0, 1);
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    padding: 0.9rem 0;
+}
+
+.page5_heading h1{
+    font-size: 60px;
+    font-weight: bold;
+    width: 100%;
+    color: rgba(64, 79, 230, 1);
+    margin: 0;
+}
+
+.page5_content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 3rem;
+    padding: 4rem;
+}
+
+.page5_content h1{
+    font-size: 4.5rem;
+    color: rgba(64, 79, 230, 1);
+    margin: 0;
+}
+
+.page5_content h3{
+    margin: 0;
+}
+
+.page5_content p{
+    margin: 0;
+}

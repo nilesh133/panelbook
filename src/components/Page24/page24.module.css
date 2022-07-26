@@ -1,0 +1,25 @@
+.page24{
+    position: relative;
+}
+
+.page24_image{
+    background-image: url("./images/page24_image.png");
+    width: 1920px;
+    height: 1080px;
+    background-position: center;
+    background-size: cover;
+}
+
+.page24_content{
+    position: absolute;
+    top: 941px;
+    left: 81px;
+}
+
+.page24_content p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.48px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}

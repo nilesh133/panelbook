@@ -1,0 +1,51 @@
+.page21{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 950px;
+}
+
+.page21_images img{
+    border-radius: 1rem;
+}
+
+.page21_images img:nth-child(1){
+    position: absolute;
+    top: 0px;
+    left: -10px;
+}
+
+.page21_images img:nth-child(2){
+    position: absolute;
+    top: 0px;
+    left: 1000px;
+}
+
+.page21_images img:nth-child(3){
+    position: absolute;
+    top: 0px;
+    left: 650px;
+}
+
+.page21_images img:nth-child(4){
+    position: absolute;
+    top: 510px;
+    left: 476px;
+}
+
+.page21_images img:nth-child(5){
+    position: absolute;
+    top: 423px;
+    left: 1075px;
+}
+
+.page21_content{
+    position: absolute;
+    left: 80px;
+    top: 700px;
+}
+
+.page21_content p{
+    margin: 0;
+    font-size: 24px;
+}

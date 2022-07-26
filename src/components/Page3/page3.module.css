@@ -1,0 +1,81 @@
+.page3{
+    padding: 2rem;
+}
+
+.page3_heading{
+    border-top: 1px solid rgba(0, 0, 0, 1);
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    padding: 0.9rem 0;
+}
+
+.page3_heading span{
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.page3_heading span:nth-child(2){
+    color: rgba(64, 79, 230, 1);
+}
+
+.page3_bottom{
+    display: flex;
+}
+
+.page3_bottom h3{
+    font-size: 1.6rem;
+}
+
+.page3_bottom_left{
+    width: 60%;
+}
+
+.page3_bottom_right{
+    width: 40%;
+}
+
+.page3_bottom_left_paras{
+    display: flex;
+}
+
+.page3_bottom_left_paraleft{
+    margin-right: 1rem;
+    width: 45%;
+}
+
+.page3_bottom_left_pararight{
+    width: 45%;
+}
+
+.page3_bottom_left_pararight span{
+    width: 45%;
+    color: rgba(64, 79, 230, 1);
+    float: right;
+    font-weight: bold;
+}
+
+.page3_bottom_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page3_bottom_right_image{
+   background-image: url("./images/page3_image.png");
+   width: 392px;
+   height: 339px;
+   background-position: center;
+   background-size: cover;
+}
+
+.page3_bottom_right p{
+    width: 392px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.page3_bottom_right span{
+   color: rgba(64, 79, 230, 1);
+}
+
