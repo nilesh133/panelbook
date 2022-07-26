@@ -28,6 +28,9 @@ import Page25 from '../Page25/Page25'
 import Page26 from '../Page26/Page26'
 import Page27 from '../Page27/Page27'
 import Page28 from '../Page28/Page28'
+import Page29 from '../Page29/Page29'
+import Page30 from '../Page30/Page30'
+import Page31 from '../Page31/Page31'
 
 const Main = () => {
   return (
@@ -60,6 +63,9 @@ const Main = () => {
         <Page26/>
         <Page27/>
         <Page28/>
+        <Page29/>
+        <Page30/>
+        <Page31/>
     </div>
   )
 }
